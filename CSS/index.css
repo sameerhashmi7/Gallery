@@ -131,7 +131,7 @@ button:hover{
 .about-me{
     display: flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:space-evenly;
     height: 60vh;
 }
 .Contact{
@@ -165,6 +165,7 @@ button:hover{
 
 }
 .about-photo{
+    border: 2px solid black;
     margin-right: 10%;
     display: flex;
     flex-direction: column;

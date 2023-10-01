@@ -117,8 +117,8 @@ li:hover{
 }
 button{
     background: transparent;
-    border: 1px solid white;
-    color: #fff;
+    border: 1px solid black;
+    color: black;
     height: 50px;
     width: 100px;
     border-radius: 5px;

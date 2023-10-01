@@ -46,3 +46,86 @@
     padding-bottom: 15px;
     border-radius: 5px;
 }
+.container2{
+    background-color: #fff;
+}
+.navbar{
+    background-color: mediumspringgreen;
+    height: 10vh;
+    background-color:;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    margin-right: 470px;
+    display: flex;
+    justify-content: center;
+    border-radius: 100%;
+
+}
+ul{
+    margin-left: 75px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+li{
+    color: #fff;
+    background-color: black;
+    border: solid;
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+    height: 6vh;
+    border-radius: 10px;
+}
+li:hover{
+    color: slategrey;
+    cursor: pointer;
+
+}
+.hero-content{
+    background:url(../assets/hero-background.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+}
+.hero-heading{
+    margin-bottom: -10px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.hero-img{
+    margin: -2% 25% 0% 25%;
+    display: flex;
+    justify-content: center;
+}
+.hero-buton{
+    display: flex;
+    justify-content: center
+}
+button{
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: slategray;
+    border: 1px solid black;
+    color: black;
+}
+.about-me{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(79, 86, 94);
+    height: 60vh;
+}

@@ -19,15 +19,15 @@
     
 }
 .container .heading h3{
-    color: black;
+    color: white;
     font-size: 3em;
     font-weight: bolder;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid white;
     padding-bottom: 10px;
 
 }
 .container .heading h3 span{
-    color:black;
+    color:white;
     font-weight: 100;
 
 }
@@ -91,7 +91,6 @@ li:hover{
 
 }
 .hero-content{
-    background:url(../assets/hero-background.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;

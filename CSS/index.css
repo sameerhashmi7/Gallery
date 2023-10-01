@@ -5,12 +5,13 @@
 
 }
 .container{
+    background-image: url(../assets/pxfuel.jpg);
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin: 40px 20px 0px 20px;
+    margin: 40px 0px 0px 0px;
 }
 .container .heading{
     width: 50%;
@@ -129,14 +130,16 @@ button:hover{
     color: black;
 }
 .about-me{
+    background-image: url(../assets/pxfuel2.jpg);
+    background-color: black;
     display: flex;
     flex-direction:row;
     justify-content:space-evenly;
-    height: 60vh;
+    height: 50vh;
 }
 .Contact{
     text-align: center;
-    border: 2px solid black;
+    border: 1px solid white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -155,7 +158,7 @@ button:hover{
     text-align: center;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border: 1px solid white;
     background-color: rgb(79, 86, 94);
     width: 20%;
     height: 40vh;
@@ -165,7 +168,7 @@ button:hover{
 
 }
 .about-photo{
-    border: 2px solid black;
+    border: 1px solid white;
     margin-right: 10%;
     display: flex;
     flex-direction: column;

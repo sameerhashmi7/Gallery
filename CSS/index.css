@@ -97,7 +97,7 @@ li:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 90vh;
+    height: 98vh;
     text-align: center;
 }
 .hero-heading{
@@ -110,6 +110,7 @@ li:hover{
     margin-right: 25%;
 }
 .hero-img{
+    position: relative;
     margin: -2% 25% 0% 25%;
     display: flex;
     justify-content: center;
